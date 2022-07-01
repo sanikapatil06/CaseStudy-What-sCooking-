@@ -50,3 +50,11 @@ print("Decision Tree:", accuracy_score(y_test, y_dtc))
 print("Naive Bayes:", accuracy_score(y_test, y_nb))
 print("Random Forest:", accuracy_score(y_test, y_rfc))
 print("Support Vector Machine:", accuracy_score(y_test, y_svm))
+
+'''
+OUTPUT:
+Decision Tree: 0.6368321810182276
+Naive Bayes: 0.7323695788812068
+Random Forest: 0.7611565053425519
+Support Vector Machine: 0.7859208045254557
+'''
